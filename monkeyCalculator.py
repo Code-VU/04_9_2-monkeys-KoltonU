@@ -4,6 +4,12 @@ def calculateTime():
     monkey_one = input("Is the first monkey smiling?:  ")
     monkey_two = input("Is the second monkey smiling?: ")
 
+    if monkey_one.lower() == monkey_two.lower():
+        print("Uh Oh! We're in trouble!")
+    else:
+        print("Yay! We're going to have a good day!")
+    
+
     # end assignment
 
 
